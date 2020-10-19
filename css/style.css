@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 
+             'Segoe UI', Roboto, 'Helvetica Neue', 
+             Ubuntu, Arial, sans-serif;
+}
+#divBody{
+    display: flex;
+    z-index: 8;
+}
+#backgroundTwitter{
+    height: 100vh;
+    width: 50%;
+    background-image: url(../img/background.PNG);
+    background-size: cover;
+}
+#backgroundLogin{
+    height: 100vh;
+    width: 50%;
+    background-color: #ffffff;
+}
+#backgroundLogin #caixaLogin{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    margin-left: -200px;
+    width: 380px;
+    height: 400px;
+    margin-top: -235px;
+    
+} 
+#backgroundLogin div img{
+    width: 39px;
+    height: 32px;
+    margin-bottom: 23px;
+
+}
+#backgroundLogin #caixaLogin h1{
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+#backgroundLogin div h3{
+    font-size: 16px;
+    letter-spacing: -0.8px;
+    margin-bottom: 15px;
+}
+#inscrever-se, #entrar{
+    font-weight: bold;
+    padding-top: 8px;
+    width: 380px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+#inscrever-se{
+    background-color: #1DA1F2;
+    color: #ffffff;
+}
+#inscrever-se:hover{
+    background-color: #1A91DA;
+    transition: 1s;
+}
+#entrar{
+    border: solid 1px #1A91DA;
+    background-color: #ffffff;
+    color: #1A91DA;
+}
+#entrar:hover{
+    background-color: #E8F5FE;
+    transition: 1s;
+}
+#divCentralizar{
+    height: 150px;
+    width: 380px;
+    margin-left: 22.5%;
+    margin-top: 27%;
+    display: flex;
+    flex-direction: row;
+}
+#divCentralizar #texto{
+    text-align: left;
+}
+#divCentralizar #texto li{
+    font-size: 20px;
+    padding-bottom: 42px;
+    font-weight: bold;
+    color: #ffffff;
+    list-style: none;
+}
+#divCentralizar #icons{
+    text-align: left;
+}
+#divCentralizar #icons li{
+    font-size: 20px;
+    padding-bottom: 45px;
+    margin-right:  20px;
+    font-weight: bold;
+    color: #ffffff;
+    list-style: none;
+}
+#divCentralizar #icons li img{
+    width: 30px;
+}
+footer{
+    bottom: 0;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    z-index: 999;
+    background-color: #ffffff;
+    position: fixed;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 18px;
+    font-size: 13px;
+    color: #00000085;
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+footer nav ul li{
+    min-width: 40px;
+    width: auto;
+    overflow: hidden;
+    margin-right: 13px;
+    margin-bottom: 15px;
+    
+    
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: #00000085;
+}
+footer nav ul li a:hover{
+    text-decoration: underline;
+}
